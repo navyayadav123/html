@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 85vh;
+    opacity:0.8;
+    background-image: url(https://c0.wallpaperflare.com/preview/235/755/831/apple-mouse-artificial-flowers-blurred-background-close-up.jpg);
+    background-position: center;
+    background-attachment:scroll;
+    background-size: cover;
+    padding-top: 0rem;
+}
+
+/* Horizontal Lists */
+.horizontal-list {
+    height:30px;
+    width:100px;
+    list-style: none;
+    padding-left: 0px;
+    text-align:none;
+    margin:0px;
+    display:flex;
+    flex-direction: row;
+
+}
+.horizontal-list li {
+    /* display:inline-block; */
+    margin:0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s,border-bottom 4s; 
+}
+
+.horizontal-list li a:hover{
+    color:lightseagreen;
+    border-bottom: 1px solid white;
+   
+}
+#social- container{
+    margin-top: 20vh;
+}
+#my-name{
+   font-size:3rem;
+    letter-spacing:0.1rem;
+     color:whitesmoke;
+     font-weight: 700;
+     margin-bottom: 0.5rem;
+     text-align: center;
+     margin-top: 20vh;
+     margin-left: 30vh;
+
+}
+img{
+    margin-top:-25vh;
+    padding:200px;
+     height: 2rem;
+     width: 2rem ;
+     margin-left:300px;
+     margin-bottom: -10px;
+     display :flex;
+    }
+        #about{
+            height: auto;
+            width:100%;
+            position:absolute;
+        }
+        #my_image{
+            height:12rem;
+            width:12rem;
+            margin: auto;
+            margin-top:-10;
+            display:flex;
+        }
+        #my_image img{
+            height:100%;
+            width:100%;
+            border-radius:50%;
+        }
+
+
+        
+    
